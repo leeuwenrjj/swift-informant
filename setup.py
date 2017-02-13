@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 from informant import __version__ as version
 
-name = "informant"
+name = "openstack-informant"
 
 setup(
     name = name,
@@ -11,7 +11,7 @@ setup(
     author_email = "syn@ronin.io",
     description = "Informant",
     license = "Apache License, (2.0)",
-    keywords = "openstack swift middleware",
+    keywords = "openstack middleware",
     url = "http://github.com/pandemicsyn/swift-informant",
     packages=find_packages(),
     classifiers=[
